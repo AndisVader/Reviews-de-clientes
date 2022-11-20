@@ -1,0 +1,167 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.sobre {
+    padding-top: 15px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    background-image: url(pizzza.jpg);
+    letter-spacing: 0.8px;
+}
+
+.sobre p,
+h1 {
+    padding-top: 30px;
+}
+
+.sobre p {
+    padding: 9px;
+}
+
+body {
+    height: 100vh;
+}
+
+#comentarios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.cabecalho {
+    letter-spacing: 1px;
+    margin: 30px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -250px;
+}
+
+.cabecalho h1 {
+    background-image: url(BACKGROUNDPIZZA.jpg);
+    color: white;
+    padding: 10px 20px;
+    font-size: 3rem;
+    font-weight: 450;
+}
+
+.cabecalho h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: black;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.comments1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.comments2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row
+}
+
+@media (max-width: 1100px) {
+    .comments1 {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    @media (max-width: 1100px) {
+        .comments2 {
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+    padding: 10px;
+
+}
+
+.opiniao-dos-perfis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.caixa-de-opniao {
+    width: 500px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding: 20px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.imagens-dos-perfis {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.imagens-dos-perfis img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.perfis {
+    display: flex;
+    align-items: center;
+}
+
+.nomes {
+    display: flex;
+    flex-direction: column;
+}
+
+.nomes strong {
+    color: dimgray;
+    font-size: 1.5rem;
+    letter-spacing: 0.5px;
+}
+
+.nomes span {
+    font-size: 0.7rem;
+}
+
+.alto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.caixa-de-opniao:hover {
+    transform: translateY(-10px);
+    transition: all ease 0.3s;
+}
+
+.opinioes {
+    color: darkgoldenrod
+}
